@@ -1,5 +1,5 @@
 ---
-title: This is my first post.
+title: Coder's Guild Web Development Course.
 description: This is a post on My Blog about SSG - Static Sites
 date: 2018-05-01
 tags:
