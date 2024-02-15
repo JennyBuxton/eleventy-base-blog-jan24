@@ -8,10 +8,13 @@ tags:
 
 ## Coder's Guild Web Development Course
 
-Learning how to set up a static site and why we might use them, basically if you need a site which does not change regularly you would use a static site.
+I am learning the skills to become a web developer with Coder's Guild.
+With an already solid knowledge of html and some css through teaching at secondary school I am building on these skills and my interest in web design.
 
-We have learnt about eleventy and netlify - we will deploy this to netlify.
-Netlify is the published website.
+In this task I have learnt how to set up a static site and why we might use them, basically if you need a site which does not change regularly you would use a static site.
+
+We have learnt about Eleventy and Netlify (sites are deployed to Netlify.)
+Netlify is the published website - I believe Eleventy is the server.
 
 All of this is pretty confusing at the moment but I am sure once I use it a few times then I will understand more which each software is used for exactly and how they all work together.
 
