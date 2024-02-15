@@ -1,7 +1,7 @@
 ---
 title: Coder's Guild Web Development Course.
 description: This is a post on My Blog about SSG - Static Sites
-date: 2018-05-01
+date: 2024-02-15
 tags:
   - another tag
 ---
