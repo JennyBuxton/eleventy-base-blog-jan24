@@ -6,6 +6,7 @@ eleventyNavigation:
 ---
 # About Me
 
+{% image "img/jblogo.png", "logo" %}
 I am currently a secondary school teacher, teaching computer science, business and media to 11-19 year olds.
 
 I have a degree in Information Systems BSc from the University of Leeds and I graduated in 2009.
