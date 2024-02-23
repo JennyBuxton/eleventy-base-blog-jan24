@@ -1,18 +1,19 @@
 ---
-title: This is my third post.
-description: This is a post on My Blog about win-win survival strategies.
-date: 2018-08-24
+title: Functions and Switch Case
+description: This is a post about JavaScript functions and switch case.
+date: 2024-02-22
 tags:
-  - second tag
-  - posts with two tags
+  - switch
+  - javascript
+	- functions
+	-calculator example
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-
+Our third session on JavaScript introduced using functions and if/else statements, I have used these in python previously.
 ## Code
 
 ### Styled (with Syntax)
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+Below you can see some of the tasks which we were given to practice our skills using functions, returning within functions and using switch cases which is a very new concept to me. I still need some more practice using these especially when checking more than one operator but they are used instead of if, else statements if there are alot of things to check.
 
 ```js
 //Task 1
