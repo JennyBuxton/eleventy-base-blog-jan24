@@ -6,7 +6,7 @@ tags:
   - switch
   - javascript
 	- functions
-	-calculator example
+	- calculator example
 ---
 Our third session on JavaScript introduced using functions and if/else statements, I have used these in python previously.
 ## Code
