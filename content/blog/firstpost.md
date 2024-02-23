@@ -4,7 +4,7 @@ description: This is a post on My Blog about SSG - Static Sites and starting out
 date: 2024-01-30
 tags:
   - eleventy
-	- starting out
+	- startingOut
 
 ---
 
