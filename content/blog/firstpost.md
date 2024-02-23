@@ -5,7 +5,6 @@ date: 2024-01-30
 tags:
   - eleventy
 	- startingOut
-
 ---
 
 ## Coder's Guild Web Development Course
