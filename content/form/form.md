@@ -25,13 +25,13 @@ eleventyNavigation:
 
       <form class="row g-3" action="#" id="task4">
         <div class="col-md-6">
-          <label for="inputUsername" class="form-label">Username</label>
-          <input type="text" class="form-control" id="inputUsername" placeholder='Enter a username' required>
+          <label for="inputFname" class="form-label">First Name</label>
+          <input type="text" class="form-control" id="inputFname" placeholder='Enter a firstname' required>
         </div>
 
         <div class="col-md-6">
-          <label for="inputPassword" class="form-label">Password</label>
-          <input type="password" class="form-control" id="inputPassword" Placeholder="Enter your password" required>
+          <label for="inputSname" class="form-label">Surname</label>
+          <input type="text" class="form-control" id="inputSname" Placeholder="Enter your Surname" required>
         </div>
 
         <div class="col-12">
@@ -40,51 +40,27 @@ eleventyNavigation:
         </div>
 
         <div class="col-12">
-          <label for="inputPhone" class="form-label">Telephone Number</label>
-          <input type="tel" class="form-control" id="inputPhone" placeholder="Phone number" max=11 min=11 required>
+          <label for="inputMessage" class="form-label">Message</label>
+          <input type="text" class="form-control" id="inputPhone" placeholder="Write message here" required>
         </div>
 
-        <div class="col-md-6">
-          <label for="inputPurchaseDate" class="form-label">Date of Purchase</label>
-          <input type="date" class="form-control" id="inputPurchaseDate">
-        </div>
 
-        <div class="col-md-6">
-          <label for='inputDob' class="form-label">Date of birth</label>
-          <input type='date' class="form-control" name='Dob' id='inputDob'>
-        </div>
-
-        <div class="col-md-6">
-          <label for='star' class='form-label'>Star sign</label>
-          <select name='star' class='form-select'>
-            <option selected>Choose from the menu</option>
-            <option value='aries'>Aries</option>
-            <option value='taurus'>Taurus</option>
-            <option value='gemini'>Gemini</option>
-            <option value='cancer'>Cancer</option>
-            <option value='leo'>Leo</option>
-            <option value='virgo'>Virgo</option>
-            <option value='libra'>Libra</option>
-            <option value='capricorn'>Capricorn</option>
-          </select>
-
-        </div>
 
         <div class="col-md-6">
           <fieldset id='mail'>
-            <legend>Mailing list signup</legend>
+            <legend>Terms and Conditions</legend>
             <div class="form-check">
-              <label class="form-check-label" for="flexRadioYes">
+              <label class="form-check-label" for="yes">
                 Yes
               </label>
-              <input class="form-check-input  " type="radio" name="flexRadioDefault" id="flexRadioYes">
+              <input class="form-check-input" type="checkbox" name="yes" id="yes" value= "Yes">
             </div>
 
             <div class="form-check">
 
-              <label class="form-check-label" for="flexRadioNo"> No
+              <label class="form-check-label" for="no"> No
               </label>
-              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioNo" checked>
+              <input class="form-check-input" type="checkbox" name="np" id="fno" value = "No" checked>
 
             </div>
           </fieldset>
@@ -108,17 +84,16 @@ eleventyNavigation:
       const formElements = task4Form.elements;
       const inputs = {};
       for (let i = 0; i < 9; i++) {
-        if (formElements[i].type !== 'radio') {
+        if (formElements[i].type !== 'checkbox') {
           if (formElements[i].type === 'fieldset') {
             // Put the value of the checked radio button
             inputs.mail = formElements['mail'].value;
           } else {
             inputs[formElements[i].name] = formElements[i].value;
             // Resets the form inputs
-            formElements[i].value = formElements[i].type === 'select-one' ? 'aries' : '';
           }
         } else {
-          // Resets the radio buttons
+          // Resets the check box
           formElements[i].checked = formElements[i].id === 'no' ? true : false;
         }
       }
