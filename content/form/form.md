@@ -78,7 +78,7 @@ eleventyNavigation:
       const formElements = task4Form.elements;
       const inputs = {};
       for (let i = 0; i < 9; i++) {
-        if (formElements[i].type !== 'checkbox') {
+        if (formElements[i].type !== 'checked') {
           if (formElements[i].type === 'fieldset') {
             // Put the value of the checked radio button
             inputs.mail = formElements['mail'].value;
