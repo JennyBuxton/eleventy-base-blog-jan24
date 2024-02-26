@@ -51,18 +51,12 @@ eleventyNavigation:
             <legend>Terms and Conditions</legend>
             <div class="form-check">
               <label class="form-check-label" for="yes">
-                Yes
+                I agree to the terms and conditions.
               </label>
-              <input class="form-check-input" type="checkbox" name="yes" id="yes" value= "Yes">
+              <input class="form-check-input" type="checkbox" name="yes" id="yes" value= "Yes" required>
             </div>
 
-            <div class="form-check">
 
-              <label class="form-check-label" for="no"> No
-              </label>
-              <input class="form-check-input" type="checkbox" name="np" id="fno" value = "No" checked>
-
-            </div>
           </fieldset>
         </div>
     </div>
