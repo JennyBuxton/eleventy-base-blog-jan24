@@ -18,35 +18,35 @@ eleventyNavigation:
 </head>
 
 <body>
-  <div class="card text-bg-primary mb-3" style="max-width: 50rem;">
+  <div class="card text-bg-primary mb-3 " style="max-width: 50rem; box-shadow: 6px 3px 5px grey;">
 
-    <div class="card-body">
-      <h5 class="card-title  text-center">Complete the form below</h5>
+  <div class="card-body">
+      <h5 class="card-title  text-center" style = "text-decoration-line: underline;">Complete the form below</h5>
 
-      <form class="row g-3" action="#" id="task4">
+  <form class="row g-3" action="#" id="task4">
         <div class="col-md-6">
           <label for="inputFname" class="form-label">First Name</label>
           <input type="text" class="form-control" id="inputFname" placeholder='Enter a firstname' required>
         </div>
 
-        <div class="col-md-6">
+  <div class="col-md-6">
           <label for="inputSname" class="form-label">Surname</label>
           <input type="text" class="form-control" id="inputSname" Placeholder="Enter your Surname" required>
         </div>
 
-        <div class="col-12">
+  <div class="col-12">
           <label for="inputEmail" class="form-label">Email</label>
           <input type="email" class="form-control" id="inputEmail" placeholder="a@a.com" required>
         </div>
 
-        <div class="col-12">
+  <div class="col-12">
           <label for="inputMessage" class="form-label">Message</label>
           <input type="text" class="form-control" id="inputPhone" placeholder="Write message here" required>
         </div>
 
 
 
-        <div class="col-md-6">
+  <div class="col-md-6">
           <fieldset id='mail'>
             <legend>Terms and Conditions</legend>
             <div class="form-check">
@@ -57,17 +57,17 @@ eleventyNavigation:
             </div>
 
 
-          </fieldset>
-        </div>
-    </div>
+  </fieldset>
+  </div>
+  </div>
 
-    <div class="col">
+  <div class="col">
       <div class="d-grid gap-2 col-4 mx-auto">
         <input class="btn btn-outline-light" type="submit" value='submit'>
       </div>
     </div>
 
-    </form>
+  </form>
   </div>
   </div>
 
