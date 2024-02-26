@@ -24,15 +24,15 @@ eleventyNavigation:
       <h5 class="card-title  text-center" style = "text-decoration-line: underline;">Complete the form below</h5>
 
   <form class="row g-3" action="#" id="task4">
-        <div class="col-md-6">
+    <div class="col-md-6">
           <label for="inputFname" class="form-label">First Name</label>
-          <input type="text" class="form-control" id="inputFname" placeholder='Enter a firstname' required>
-        </div>
+          <input type="text" class="form-control" id="inputFname" placeholder='Enter your firstname' required>
+    </div>
 
   <div class="col-md-6">
           <label for="inputSname" class="form-label">Surname</label>
           <input type="text" class="form-control" id="inputSname" Placeholder="Enter your Surname" required>
-        </div>
+    </div>
 
   <div class="col-12">
           <label for="inputEmail" class="form-label">Email</label>
