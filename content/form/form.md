@@ -23,7 +23,7 @@ eleventyNavigation:
   <div class="card-body">
       <h5 class="card-title  text-center" style = "text-decoration-line: underline;">Complete the form below</h5>
 
-  <form class="row g-3" action="#" id="task4">
+  <form class="row" action="#" id="task4">
     <div class="col-md-6">
           <label for="inputFname" class="form-label">First Name</label>
           <input type="text" class="form-control" id="inputFname" placeholder='Enter your firstname' required>
@@ -88,7 +88,7 @@ eleventyNavigation:
           }
         } else {
           // Resets the check box
-          formElements[i].checked = formElements[i].id === 'no' ? true : false;
+          formElements[i].checked = formElements[i].id === 'yes' ? true : false;
         }
       }
       console.log(inputs);
