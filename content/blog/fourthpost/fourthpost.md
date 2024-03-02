@@ -6,8 +6,9 @@ tags: ['psuedocode', 'comments']
 ---
 
 
-![logo](images/jblogo.PNG)
+![logo]("jblogo.PNG")
 
+![possum]("possum.png")
 
 ## Psuedocode
 Being a computer science and ICT teacher has allowed me to encounter psuedocode with GCSE students. It has always been part of the curriculum where there is such amiguity and no particular right way of 'doing it', no industry standard and therefore when marking students' work it has been an arduous task to know whether it is 'right' or not.
