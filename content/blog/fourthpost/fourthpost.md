@@ -6,8 +6,8 @@ tags: ['psuedocode', 'comments']
 ---
 
 
-![My logo](/images/jblogo.PNG)
-![logo](https://images.unsplash.com/photo-1682687221323-6ce2dbc803ab?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+![logo](images/jblogo.PNG)
+
 
 ## Psuedocode
 Being a computer science and ICT teacher has allowed me to encounter psuedocode with GCSE students. It has always been part of the curriculum where there is such amiguity and no particular right way of 'doing it', no industry standard and therefore when marking students' work it has been an arduous task to know whether it is 'right' or not.
