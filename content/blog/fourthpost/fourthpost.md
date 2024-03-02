@@ -1,23 +1,24 @@
 ---
 title: Psuedocode and Comments
 description: This is a post on My Blog about psuedocode and comments
-date: 2018-09-30
+date: 2024-03-02
 tags: psuedocode
+- comments
 ---
 ## Psuedocode
 Being a computer science and ICT teacher has allowed me to encounter psuedocode with GCSE students. It has always been part of the curriculum where there is such amiguity and no particular right way of 'doing it', no industry standard and therefore when marking students' work it has been an arduous task to know whether it is 'right' or not. Completing this week's session on psuedocode has left me a little clearer on the concept of psuedocode and the use within industry but there seems to indeed be a place for it especially if you are working with the end user and non-tech personnel.
 
 
 I have completed 3 different take-away tasks this week and I have documented below my attempt of them. My take-away knowledge from the session is to:
-1/ include keywords and capitalise them, for example, PRINT, FUNCTION, etc.
-2/ be specific in your descriptions
-3/ do not use techy shorthand even if you know what the solution will look like - end users will not understand it and you will have to then explain further.
+- include keywords and capitalise them, for example, PRINT, FUNCTION, etc.
+- be specific in your descriptions
+- do not use techy shorthand even if you know what the solution will look like - end users will not understand it and you will have to then explain further.
 
 Essentially psuedocode's purpose is to allow you to focus on the problem away from the scenario it is contained in and is language agnostic.
 
 We learnt also about the use and benefit of using psuedocode in interviews as if you have a clear 'plan' of what you need to implement but then either run out of time/ come into trouble trying to debug your code then the interviewer can see that you approached the task with a certain methodology and also what you intended to implement eventually.
 
-Take-away tasks:
+*Take-away tasks:*
 ```
 PSUEDOCODE AND COMMENTS TAKE AWAY TASKS (29/02/24)
 Produce a pseudocode response to one or more of the following challenges. As comments.
@@ -89,12 +90,12 @@ END
 
 ## Comments
 Comments are important to use in your code for a number of reasons:
-1/ when you return to code you can see what parts of your code do quickly
-2/ you can section out parts of code when debugging
-3/ you can include different types of comments to show for example a question about code you may have (?), a warning (!), something that is important (*).
-4/ if other developers are reading your code then it is clearer to them what your code does by using comments.
+- when you return to code you can see what parts of your code do quickly
+- you can section out parts of code when debugging
+- you can include different types of comments to show for example a question about code you may have (?), a warning (!), something that is important (*).
+- if other developers are reading your code then it is clearer to them what your code does by using comments.
 
-Different types of comments:
+*Different types of comments:*
 Single line --> //
 Multiline   --> /* */
 HTML        --> !<--  -->
@@ -103,7 +104,7 @@ HTML        --> !<--  -->
 Comments for a function could be similar to the example below in a multiline example:
 
 purpose of function
-returnno value
+return no value
 accepts no parameter
 
 
