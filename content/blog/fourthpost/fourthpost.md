@@ -4,8 +4,14 @@ description: This is a post on My Blog about psuedocode and comments
 date: 2024-03-02
 tags: ['psuedocode', 'comments']
 ---
+
+
+![My logo](/images/jblogo.PNG)
+
 ## Psuedocode
-Being a computer science and ICT teacher has allowed me to encounter psuedocode with GCSE students. It has always been part of the curriculum where there is such amiguity and no particular right way of 'doing it', no industry standard and therefore when marking students' work it has been an arduous task to know whether it is 'right' or not. Completing this week's session on psuedocode has left me a little clearer on the concept of psuedocode and the use within industry but there seems to indeed be a place for it especially if you are working with the end user and non-tech personnel.
+Being a computer science and ICT teacher has allowed me to encounter psuedocode with GCSE students. It has always been part of the curriculum where there is such amiguity and no particular right way of 'doing it', no industry standard and therefore when marking students' work it has been an arduous task to know whether it is 'right' or not.
+
+Completing this week's session on psuedocode has left me a little clearer on the concept of psuedocode and the use within industry but there seems to indeed be a place for it especially if you are working with the end user and non-tech personnel.
 
 
 I have completed 3 different take-away tasks this week and I have documented below my attempt of them. My take-away knowledge from the session is to:
@@ -96,15 +102,23 @@ Comments are important to use in your code for a number of reasons:
 
 *Different types of comments:*
 Single line --> //
+
+
 Multiline   --> /* */
+
+
 HTML        --> !<--  -->
 
 
 Comments for a function could be similar to the example below in a multiline example:
 
-purpose of function
-return no value
-accepts no parameter
+*purpose* of function
+
+
+*return* no value
+
+
+*accepts* no parameter
 
 
 
