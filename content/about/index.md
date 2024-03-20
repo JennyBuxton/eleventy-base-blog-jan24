@@ -16,4 +16,4 @@ I am looking to work in the technology sector as it has always been an interest 
 
 I have also recently become a mum to a little boy who has had a bit of a tough start in life. He has recently recovered from open heart surgery as he was born with a hole in his heart. He is now 16 months and doing very well, a ball of energy! So I am looking for a job which can give me a bit of flexibility and work/life balance.
 
-![My logo](./jblogo.PNG)
+
