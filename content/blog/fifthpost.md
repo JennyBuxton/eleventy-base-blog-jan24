@@ -44,6 +44,33 @@ Looking at different things you can do with the data in an array. You can have d
 ## Objects
 
 ```
+const obj1 = {
+  fName: "Foo",
+  sName: "Bar",
+  dob: new Date()
+};
+//print out the object
+console.log(obj1);
+
+//print out the fName in the object
+console.log(obj1.fName);
+
+//add key - age to the object and assign value 34
+//Then print out the object
+obj1.age = 34;
+console.log(obj1);
+
+//add key - email to the object and assign value "ada@ada.com"
+//Then print out the object
+obj1.email = "ada@ada.com";
+console.log(obj1);
+```
+Here I created a small object and added some key:value pairs to it.
+When handling objects you use dot notation.
+
+Below are the takeaway tasks that were set to practice our skills this week in all 3 new skills learnt.
+
+```
 //Task 1
 
 //Write a loop that outputs the 7 times table,
@@ -152,5 +179,5 @@ function letsCook(title) {
 letsCook('anything');
 ```
 
-Above are the tasks that were set to practice our skills this week.
+
 
