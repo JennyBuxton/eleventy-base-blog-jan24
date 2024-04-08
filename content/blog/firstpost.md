@@ -2,10 +2,9 @@
 title: Coder's Guild Web Development Course.
 description: This is a post on My Blog about SSG - Static Sites and starting out.
 date: 2024-01-30
-tags: ['eleventy', 'starting out']
+	tags: ['eleventy', 'starting out']
 
 ---
-
 ## Coder's Guild Web Development Course
 
 I am learning the skills to become a web developer with Coder's Guild.
