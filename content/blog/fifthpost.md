@@ -154,8 +154,8 @@ recipe.directions = [
 
 console.log(recipe.title);
 console.log("Serves", recipe.servings);
-console.log("Serves", recipe.ingredients);
-console.log("Serves", recipe.directions);
+console.log("Contains", recipe.ingredients);
+console.log("Method", recipe.directions);
 
 
 //Bonus Points: Create a loop to list all the ingredients and directions.
