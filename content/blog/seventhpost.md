@@ -8,5 +8,5 @@ tags: ['DOM', 'javascript', 'interactive']
 
 You can find the take away task and other code pens I have created by clicking on this link.
 
-{% codepen 'url' %}
+
 https://codepen.io/Jenny-Buxton/pen/MWRzdNo?editors=1011
